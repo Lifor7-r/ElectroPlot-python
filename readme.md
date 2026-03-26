@@ -1,4 +1,4 @@
-<img width="1800" height="1500" alt="image" src="https://github.com/user-attachments/assets/5d5b4fa7-e869-4c4e-8361-486c76f54704" /># ElectroPlot-python
+ElectroPlot-python
 
 本仓库用于电化学测试数据（Neware `.ndax` 等）的绘图脚本集合。
 
@@ -13,14 +13,14 @@
 
 ---
 
-## Performance / `vt-time-choose.py`（电压–时间，自选时间范围）
+## Performance / `vt_time_choose.py`（电压–时间，自选时间范围）
 
 **作用**：读取**当前工作目录**下所有 `.ndax`，用挂钟时间 `Timestamp` 换算为相对测试开始的 **Time (h)**，绘制电压–时间曲线。
 
 **运行**：把 `.ndax` 放在同一文件夹，在该文件夹下执行：
 
 ```bash
-python vt-time-choose.py
+python vt_time_choose.py
 ```
 
 **流程与功能**
@@ -43,13 +43,13 @@ python vt-time-choose.py
 
 ---
 
-## Performance / `c-v-cycle(choose-gap).py`（容量–电压，自选圈数 + 间隔）
+## Performance / `cv_cycle_choose.py`（容量–电压，自选圈数 + 间隔）
 
 文件名含括号，在终端运行时建议加引号，例如：
 
 ```bash
 cd Performance/v-c
-python "c-v-cycle(choose-gap).py"
+python "cv_cycle_choose.py"
 ```
 
 **作用**：读取当前目录下 `.ndax`，按 **Cycle** 绘制容量–电压；支持**起止圈**与**每隔几圈画一条**。
