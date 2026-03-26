@@ -1,4 +1,4 @@
-# pythondraw
+# ElectroPlot-python
 
 本仓库用于电化学测试数据（Neware `.ndax` 等）的绘图脚本集合。
 
