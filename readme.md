@@ -1,6 +1,15 @@
-# ElectroPlot-python
+<img width="1800" height="1500" alt="image" src="https://github.com/user-attachments/assets/5d5b4fa7-e869-4c4e-8361-486c76f54704" /># ElectroPlot-python
 
 本仓库用于电化学测试数据（Neware `.ndax` 等）的绘图脚本集合。
+
+---
+
+## 快速开始
+
+1. **环境准备**：确保已安装 Python 3.x，然后运行以下命令安装依赖：
+   ```bash
+   pip install -r requirements.txt
+
 
 ---
 
@@ -27,8 +36,10 @@ python vt-time-choose.py
 
 - 目录：`VT_time_choose_Results/`
 - 文件：`*_RealVT.png`
+- 示例图片<img width="1800" height="1500" alt="exp" src="https://github.com/user-attachments/assets/bcac3c27-ca4f-4825-912a-50ee88be0eb0" />
 
 **纵轴**：默认约 `2–5 V`，可在脚本中 `ax.set_ylim` 修改。
+
 
 ---
 
@@ -61,8 +72,11 @@ python "c-v-cycle(choose-gap).py"
 
 - 目录：`CV_cycle_gap_Plots/`
 - 文件：`*_Areal_Clean.png`
+- 示例图片 <img width="2100" height="1800" alt="exp" src="https://github.com/user-attachments/assets/ffe507ec-1f36-48ac-b15f-aeb1892771cc" />
+
 
 **纵轴**：默认约 `1.5–4.8 V`，可在脚本中修改。
+
 
 ---
 
