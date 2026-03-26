@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # =============================
-# 1. 画图风格（别折腾太花）
+# 1. 画图风格
 # =============================
 plt.rcParams.update({
     'font.family': 'sans-serif',
