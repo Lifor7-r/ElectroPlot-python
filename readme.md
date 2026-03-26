@@ -4,9 +4,7 @@
 
 ---
 
-## Performance / v-t — `vt-time-choose.py`（电压–时间，自选时间范围）
-
-**路径**：`Performance/v-t/vt-time-choose.py`（若存在 `Performance/v-t/vt/vt-time-choose.py`，逻辑与输出目录通常与其一致，任选其一即可。）
+## Performance / `vt-time-choose.py`（电压–时间，自选时间范围）
 
 **作用**：读取**当前工作目录**下所有 `.ndax`，用挂钟时间 `Timestamp` 换算为相对测试开始的 **Time (h)**，绘制电压–时间曲线。
 
@@ -34,9 +32,7 @@ python vt-time-choose.py
 
 ---
 
-## Performance / v-c — `c-v-cycle(choose-gap).py`（容量–电压，自选圈数 + 间隔）
-
-**路径**：`Performance/v-c/c-v-cycle(choose-gap).py`
+## Performance / `c-v-cycle(choose-gap).py`（容量–电压，自选圈数 + 间隔）
 
 文件名含括号，在终端运行时建议加引号，例如：
 
